@@ -27,5 +27,25 @@ TIL for back-end (YC Tech Academy)
   * DI(Dependency Injection)를 사용하여 의존성을 주입하고, 단위 테스트를 수행함.
   * 스프링 테스트 프레임워크를 활용하여 컨테이너를 생성하고 테스트하는 방법이 포함됨.
 
-# 3주차
-                                            
+## 3주차
+UNIQUE KEY, PRIMARY KEY, FOREIGN KEY:
+
+PRIMARY KEY: 테이블에서 유일한 식별자 역할을 하는 열. 중복된 값을 가질 수 없음.
+UNIQUE KEY: 중복을 허용하지 않는 열 또는 열의 조합. PRIMARY KEY와 유사하지만 여러 개의 UNIQUE KEY가 테이블에 존재할 수 있음.
+FOREIGN KEY: 다른 테이블의 PRIMARY KEY를 참조하여 두 테이블 간의 관계를 정의하는 열.
+INDEXING:
+
+CREATE INDEX: 데이터베이스에서 인덱스를 생성하는 명령어. 검색 성능을 향상시키는 데 사용됨.
+DROP INDEX: 데이터베이스에서 인덱스를 삭제하는 명령어.
+SHOW INDEX: 데이터베이스의 테이블에 대한 인덱스 정보를 조회하는 명령어.
+UNIQUE INDEX: 중복 값을 허용하지 않는 인덱스.
+TRANSACTION:
+
+데이터베이스 작업의 논리적인 단위. ACID (원자성, 일관성, 고립성, 지속성) 속성을 따라 데이터 일관성을 보장.
+시작, 커밋, 롤백 등의 작업으로 구성됨.
+여러 개의 SQL 명령을 하나의 트랜잭션으로 묶어 원자적으로 처리.
+JPA HIBERNATE:
+
+JPA (Java Persistence API): 자바 애플리케이션에서 객체와 데이터베이스 간의 매핑 및 관리를 위한 API. ORM(Object-Relational Mapping) 기술의 표준 인터페이스.
+Hibernate: JPA를 구현한 ORM 프레임워크 중 하나. 객체와 데이터베이스 간의 매핑, 쿼리 작성, 트랜잭션 관리 등을 제공.
+Hibernate는 JPA를 기반으로 하며, 더 많은 기능과 확장성을 제공하는 ORM 도구 중 하나로 널리 사용됨.
