@@ -49,3 +49,13 @@ JPA HIBERNATE:
 JPA (Java Persistence API): 자바 애플리케이션에서 객체와 데이터베이스 간의 매핑 및 관리를 위한 API. ORM(Object-Relational Mapping) 기술의 표준 인터페이스.
 Hibernate: JPA를 구현한 ORM 프레임워크 중 하나. 객체와 데이터베이스 간의 매핑, 쿼리 작성, 트랜잭션 관리 등을 제공.
 Hibernate는 JPA를 기반으로 하며, 더 많은 기능과 확장성을 제공하는 ORM 도구 중 하나로 널리 사용됨.
+
+# 4주차
+사용자 인증과 인가: Spring Security는 다양한 인증 방법(폼 기반, 기본 인증, OAuth 등)과 권한 부여를 제공하여 안전한 로그인 및 페이지 접근을 보장합니다.
+
+CSRF 및 XSS 방어: 애플리케이션 보안을 강화하기 위해 Cross-Site Request Forgery(CSRF) 및 Cross-Site Scripting(XSS) 공격으로부터 보호합니다.
+
+세션 관리: 세션 효과적으로 관리하여 세션 공격으로부터 보호합니다.
+
+사용자 정의 필터 및 핸들러: 요청에 대한 커스텀 로직을 적용하여 보다 복잡한 시나리오에 대응할 수 있습니다.
+
